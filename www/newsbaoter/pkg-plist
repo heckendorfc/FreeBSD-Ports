@@ -1,0 +1,11 @@
+bin/newsbaoter
+man/man1/newsbaoter.1.gz
+%%DATADIR%%/xsl/Atom_03_xsl.xml
+%%DATADIR%%/xsl/Atom_10_xsl.xml
+%%DATADIR%%/xsl/Feed_XSD.xml
+%%DATADIR%%/xsl/RDF_xsl.xml
+%%DATADIR%%/xsl/RSS_20_xsl.xml
+%%EXAMPLESDIR%%/config.sample
+@dirrmtry %%DATADIR%%/xsl
+@dirrmtry %%DATADIR%%
+@dirrmtry %%EXAMPLESDIR%%
