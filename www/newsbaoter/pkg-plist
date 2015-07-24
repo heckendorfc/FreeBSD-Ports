@@ -6,6 +6,6 @@ man/man1/newsbaoter.1.gz
 %%DATADIR%%/xsl/RDF_xsl.xml
 %%DATADIR%%/xsl/RSS_20_xsl.xml
 %%EXAMPLESDIR%%/config.sample
-@dirrmtry %%DATADIR%%/xsl
-@dirrmtry %%DATADIR%%
-@dirrmtry %%EXAMPLESDIR%%
+@dir %%DATADIR%%/xsl
+@dir %%DATADIR%%
+@dir %%EXAMPLESDIR%%
