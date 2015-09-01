@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	syncplay
-PORTVERSION=	1.3.1
+PORTVERSION=	1.3.2
 CATEGORIES=	multimedia
 
 MAINTAINER=	heckendorfc@gmail.com
@@ -28,7 +28,7 @@ VLC_DESC=	Support for VLC media player
 
 MAKEFILE=	GNUmakefile
 
-GUI_RUN_DEPENDS=	pyside-py2?>=1.1.2:devel/pyside
+GUI_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pyside>=1.1.2:devel/pyside
 
 VLC_MAKE_ARGS=	VLC_SUPPORT=true
 VLC_MAKE_ARGS_OFF=	VLC_SUPPORT=false
