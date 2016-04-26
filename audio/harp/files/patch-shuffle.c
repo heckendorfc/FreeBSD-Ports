@@ -1,8 +1,6 @@
-diff --git a/shuffle.c b/shuffle.c
-index be05494..016fb2c 100644
---- shuffle.c
-+++ shuffle.c
-@@ -159,10 +159,7 @@ struct zs_arg{
+--- shuffle.c.orig	2015-07-30 06:53:22.145389293 +0800
++++ shuffle.c	2015-07-30 06:54:51.465466007 +0800
+@@ -159,10 +159,7 @@
  	const unsigned int items;
  	const unsigned int group_items;
  	const unsigned int increment;
@@ -14,7 +12,7 @@ index be05494..016fb2c 100644
  	unsigned int count;
  	int slidemod;
  	char *query;
-@@ -260,7 +257,7 @@ void zshuffle(unsigned int items){
+@@ -260,7 +257,7 @@
  	struct candidate_data candlist;
  
  	srandom((unsigned int)time(NULL));

@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	syncplay
-PORTVERSION=	1.3.2
+PORTVERSION=	1.3.4
 CATEGORIES=	multimedia
 
 MAINTAINER=	heckendorfc@gmail.com
@@ -11,7 +11,6 @@ LICENSE=	APACHE20
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	Syncplay
-GH_TAGNAME=	${PORTVERSION}
 
 USES=		desktop-file-utils gmake python:2 twisted
 USE_TWISTED=	run
@@ -28,15 +27,11 @@ VLC_DESC=	Support for VLC media player
 
 MAKEFILE=	GNUmakefile
 
-GUI_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pyside>=1.1.2:devel/pyside
+GUI_RUN_DEPENDS=	pyside-py2?>=1.1.2:devel/pyside
 
 VLC_MAKE_ARGS=	VLC_SUPPORT=true
 VLC_MAKE_ARGS_OFF=	VLC_SUPPORT=false
 CLIENT_INSTALL_TARGET=	install-client
 SERVER_INSTALL_TARGET=	install-server
-
-.if !empty(PORT_OPTIONS:MCLIENT) && !empty(PORT_OPTIONS:MSERVER)
-INSTALL_TARGET=	install
-.endif
 
 .include <bsd.port.mk>
