@@ -32,7 +32,6 @@ SDL_USE=		SDL=image,mixer,ttf,sdl
 SDL_CONFIGURE_ENABLE=	sdl
 
 X11_USE=		XORG=x11
-X11_RUN_DEPENDS=	xorg-fonts-miscbitmaps>=0:${PORTSDIR}/x11-fonts/xorg-fonts-miscbitmaps
 X11_CONFIGURE_ENABLE=	x11
 
 WRKSRC=		${WRKDIR}/angband-${PORTVERSION}
