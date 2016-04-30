@@ -33,7 +33,7 @@ DOCS_BUILD_DEPENDS=	rst2html:${PORTSDIR}/textproc/py-docutils
 SDL_USE=		SDL=image,mixer,ttf,sdl
 SDL_CONFIGURE_ENABLE=	sdl
 
-X11_USE=		XORG=x11
+X11_USE=		XORG=x11,xau,xcb,xdmcp
 X11_CONFIGURE_ENABLE=	x11
 
 WRKSRC=		${WRKDIR}/angband-${PORTVERSION}
