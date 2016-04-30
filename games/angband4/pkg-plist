@@ -1,4 +1,4 @@
-@(,games,2555) bin/angband
+bin/angband
 %%ETCDIR%%/gamedata/activation.txt
 %%ETCDIR%%/gamedata/artifact.txt
 %%ETCDIR%%/gamedata/body.txt
@@ -318,6 +318,3 @@
 %%DATADIR%%/icons/angband-sdl.desktop
 %%DATADIR%%/user/info/user.hlp
 %%DATADIR%%/user/info/dummy.txt
-@dir(,games,775) %%DATADIR%%/save
-@dir(,games,775) %%DATADIR%%/user
-@dir(,games,775) %%DATADIR%%/apex

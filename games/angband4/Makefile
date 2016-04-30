@@ -49,8 +49,5 @@ post-patch:
 
 post-install:
 	@${STRIP_CMD} ${STAGEDIR}${PREFIX}/bin/angband
-.for i in apex save user
-	@${MKDIR} ${STAGEDIR}${DATADIR}/${i}
-.endfor
 
 .include <bsd.port.mk>
