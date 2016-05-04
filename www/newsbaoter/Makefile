@@ -14,8 +14,7 @@ LIB_DEPENDS=	libcurl.so:${PORTSDIR}/ftp/curl
 USE_GITHUB=	yes
 GH_ACCOUNT=	heckendorfc
 
-USES=		cmake ncurses
+USES=		cmake ncurses sqlite
 USE_GNOME=	libxml2 libxslt
-USE_SQLITE=	yes
 
 .include <bsd.port.mk>
