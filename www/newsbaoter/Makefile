@@ -13,8 +13,6 @@ LIB_DEPENDS=	libcurl.so:${PORTSDIR}/ftp/curl
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	heckendorfc
-GH_COMMIT=	88c7463
-GH_TAGNAME=	${PORTVERSION}
 
 USES=		cmake ncurses
 USE_GNOME=	libxml2 libxslt
