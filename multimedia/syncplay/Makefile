@@ -1,7 +1,8 @@
 # $FreeBSD$
 
 PORTNAME=	syncplay
-DISTVERSION=	v1.4.0
+PORTVERSION=	1.4.0
+DISTVERSIONPREFIX=	v
 CATEGORIES=	multimedia
 
 MAINTAINER=	heckendorfc@gmail.com
