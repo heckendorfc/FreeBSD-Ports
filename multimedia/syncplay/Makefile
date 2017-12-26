@@ -16,7 +16,7 @@ USES=		desktop-file-utils gmake python:2.7 shebangfix
 USE_GITHUB=	yes
 GH_ACCOUNT=	Syncplay
 SHEBANG_FILES=	syncplayClient.py \
-				syncplayServer.py
+		syncplayServer.py
 
 NO_ARCH=	yes
 
