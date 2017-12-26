@@ -77,8 +77,9 @@ lib/syncplay/syncplay/ui/__init__.py
 lib/syncplay/syncplay/ui/consoleUI.py
 lib/syncplay/syncplay/ui/gui.py
 lib/syncplay/syncplay/utils.py
+lib/syncplay/syncplay/vendor/Qt.py
 lib/syncplay/syncplay/vendor/__init__.py
-lib/syncplay/syncplay/vendor/qt4reactor.py
+lib/syncplay/syncplay/vendor/qt5reactor.py
 %%CLIENT%%%%VLC%%lib/vlc/lua/intf/syncplay.lua
 share/app-install/icons/syncplay.png
 %%CLIENT%%share/applications/syncplay.desktop
