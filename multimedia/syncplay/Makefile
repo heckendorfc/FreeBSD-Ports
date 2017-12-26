@@ -1,8 +1,8 @@
 # $FreeBSD$
 
 PORTNAME=	syncplay
-PORTVERSION=	1.5.0
 DISTVERSIONPREFIX=	v
+DISTVERSION=	1.5.0
 CATEGORIES=	multimedia
 
 MAINTAINER=	heckendorfc@gmail.com
@@ -10,7 +10,7 @@ COMMENT=	Synchronize video playback over networks
 
 LICENSE=	APACHE20
 
-RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}twisted>=0:devel/py-twisted
+RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}twisted>=0:devel/py-twisted@${PY_FLAVOR}
 
 USES=		desktop-file-utils gmake python:2.7
 USE_GITHUB=	yes
