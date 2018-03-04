@@ -17,7 +17,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	Syncplay
 SHEBANG_FILES=	syncplayClient.py \
 		syncplayServer.py
-
 NO_ARCH=	yes
 
 OPTIONS_DEFINE=	GUI VLC
@@ -26,6 +25,8 @@ OPTIONS_SUB=	yes
 OPTIONS_MULTI=	MODES
 OPTIONS_MULTI_MODES=	CLIENT SERVER
 
+CLIENT_DESC=	Client mode
+SERVER_DESC=	Server mode
 VLC_DESC=	Support for VLC media player
 
 MAKEFILE=	GNUmakefile
