@@ -38,4 +38,7 @@ VLC_MAKE_ARGS_OFF=	VLC_SUPPORT=false
 CLIENT_INSTALL_TARGET=	install-client
 SERVER_INSTALL_TARGET=	install-server
 
+post-patch:
+	@${REINPLACE_CMD} -e 's|path = os.path.dirname(os.path.dirname(__file__))|path = "'${DATADIR}'"|g' ${WRKSRC}/syncplay/utils.py
+
 .include <bsd.port.mk>
