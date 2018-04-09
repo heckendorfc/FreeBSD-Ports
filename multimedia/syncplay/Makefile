@@ -9,6 +9,7 @@ MAINTAINER=	heckendorfc@gmail.com
 COMMENT=	Synchronize video playback over networks
 
 LICENSE=	APACHE20
+LICENSE_FILE=	${WRKSRC}/LICENSE
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}twisted>=0:devel/py-twisted@${PY_FLAVOR}
 
